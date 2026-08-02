@@ -130,6 +130,7 @@
 | hosts | ✓ |  |  |  |  |  |
 | html | ✓ | ✓ | ✓ |  | ✓ | `vscode-html-language-server`, `superhtml` |
 | htmldjango | ✓ |  |  |  |  | `djlsp`, `vscode-html-language-server`, `superhtml` |
+| http | ✓ | ✓ |  |  |  |  |
 | hurl | ✓ | ✓ | ✓ |  |  |  |
 | hy | ✓ |  |  |  |  | `hyuga` |
 | hyprlang | ✓ |  | ✓ | ✓ |  | `hyprls` |

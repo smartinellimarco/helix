@@ -5655,3 +5655,16 @@ comment-tokens = ["REM", "::"]
 [[grammar]]
 name = "batch"
 source = { git = "https://github.com/wharflab/tree-sitter-batch", rev = "5fc5f54267ef9a78e7a5319b80e092194252aabf" }
+
+[[language]]
+name = "http"
+scope = "source.http"
+injection-regex = "http"
+file-types = ["http", "rest"]
+comment-tokens = ["#", "//"]
+indent = { tab-width = 2, unit = "  " }
+grammar = "kulala_http"
+
+[[grammar]]
+name = "kulala_http"
+source = { git = "https://github.com/mistweaverco/tree-sitter-kulala-http", rev = "630e2b8523c775ba866564c2b4ad88d649a56c00" }
